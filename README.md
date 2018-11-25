@@ -19,7 +19,7 @@ This script is an interface of `quantmod` for `julia`.
 Then you have access to the following functions
 * `p = get_price(symbol, start_date, end_date)` returns the price of the instrument `symbol`
 * `p = get_log_return(symbol, start_date, end_date)` returns the log return of the instrument `symbol`
-* `p = get_irx( start_date, end_date)` returns riskless log return 
+* `p = get_irx( start_date, end_date)` returns riskless return 
 * `p = get_sp500( start_date, end_date)` returns SP500 price
 
 See examples in the Jupyter Notebook.
