@@ -1,6 +1,6 @@
 __precompile__()
 
-module Jquantmod
+module JQuantmod
 
 export get_price, get_irx, get_sp500, get_log_return, get_log_return_sp500, get_log_irx
 
