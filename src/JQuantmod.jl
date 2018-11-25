@@ -1,3 +1,5 @@
+__precompile__()
+
 module Jquantmod
 
 export get_price, get_irx, get_sp500, get_log_return, get_log_return_sp500, get_log_irx
@@ -78,4 +80,5 @@ end
 function get_log_return_sp500(from::String, to::String)
     init()
     return get_log_return("^GSPC", from, to)
+end
 end
